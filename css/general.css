@@ -1,0 +1,96 @@
+html {
+	background: url('../images/bg.jpg') repeat;
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 0.85em;
+}
+
+body{
+	margin: 65px auto;
+	padding: 0px 25px 25px 25px;
+	width: 340px;
+	box-shadow: 5px 5px #121653;
+	border: 2px solid #121653;
+	
+	background-color: #fff;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 2.5em;
+	color: #121653;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+p {
+	margin-top: -1.3em;
+	padding-left: 1.5em;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	cursor: pointer;
+	
+	padding: 5px;
+	padding-left: 3em;
+	
+	color: #121754;
+	background: url('../images/bullet.jpg') no-repeat #fff;
+	background-position: 0.8em;
+	border-bottom: 5px solid #121754;
+}
+
+article {
+	padding: 1px 0px 25px 0px;
+	width: 340px;
+	color: #fff;
+	background-color: #121754;
+}
+
+input {
+	width: 233px;
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 0.75em;
+	text-align: right;
+		
+	color: #fff;
+	background-color: #121754;
+	box-shadow: 2px 2px #404487;
+	border: 1px solid #404487;
+}
+
+button {
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+		
+	color: #fff;
+	background-color: #2e3271;
+	box-shadow: 2px 2px #404487;
+	border: 1px solid #404487;
+}
+
+.ol-list, .enter-task {
+	padding-left: 1.5em;
+}
+
+.ol-list {
+	margin-left: 0em;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.done {
+  color: #9c956b;
+  text-decoration: line-through;
+  background-color: #404487;
+}

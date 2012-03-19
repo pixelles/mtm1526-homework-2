@@ -8,14 +8,22 @@
 
 <body>
 
-	<h1>Tiny To-Do List</h1>
-
-     	<label for="enter-task">Enter a Task:</label>
-     	<input id="task" name="task">
-   	 	<button id="add-task">Add task</button>
-
+	<header>
+		<h1>Tiny To-Do List</h1>
+		<p>A tiny application for tiny to-do lists to do in a tiny amount of tiny minutes.</p>
+	</header>
+	
+	<article>
+		<div class="enter-task">
+			<h2>Enter a Task</h2>
+			<input id="task" name="task">
+			<button id="add-task">Add task</button>
+		</div>
    
-    <ol id="list"></pl>
+		<div class="ol-list">
+			<ol id="list"></ol>
+		</div>
+	</article>
     
     <script src="js/to-do.js"></script>
 	
